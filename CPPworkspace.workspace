@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="CPPworkspace" Database="" Version="10.0.0">
   <Project Name="test1" Path="test1/test1.project" Active="No"/>
   <Project Name="Simple" Path="Simple/Simple.project" Active="No"/>
-  <Project Name="Project1" Path="Project1/Project1.project" Active="Yes"/>
+  <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="test1" ConfigName="Debug"/>
       <Project Name="Simple" ConfigName="Debug"/>
       <Project Name="Project1" ConfigName="Debug"/>
+      <Project Name="FirstProgram" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="test1" ConfigName="Release"/>
       <Project Name="Simple" ConfigName="Release"/>
       <Project Name="Project1" ConfigName="Release"/>
+      <Project Name="FirstProgram" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
