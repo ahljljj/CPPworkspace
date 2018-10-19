@@ -5,32 +5,34 @@
 using namespace std;
 
 class Player{
+public:
     // attributes
-    string name;
-    int health;
-    int xp;
+    string name{"Player"};
+    int health{0};
+    int xp{0};
     
     //methods
-    void talk(string);
+    void talk(string text_to_say){cout<< name<<" says "<< text_to_say<<endl;};
     bool is_dead();
     
     
 };
 
 class Account{
+public:
     
     //attritubes
-    string name;
-    double balance;
+    string name{"Account"};
+    double balance{0.0};
     
     
     // methods
-    bool deposit(double);
-    bool withdraw(double);
+    bool deposit(double){balance += bal; cout<< "In deposit"<<endl;};
+    bool withdraw(double){balance -= bal; cout<<"In withdraw"<<endl;};
     
     
     
-}
+};
 
 int main(){
     
@@ -39,6 +41,12 @@ int main(){
     
     Account Tom_acc;
     Account John_acc;
+    Tom.name = "Tom";
+    Tom.health = 100;
+    Tom.xp = 100;
+    Tom.talk("Hello");
+    
+    cout<<Tom.name<<'\t'<<Tom.health<<endl;
     
     Player *enemy{nullptr};
     enemy = new Player;
