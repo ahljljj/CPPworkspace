@@ -27,8 +27,14 @@ public:
     
     
     // methods
-    bool deposit(double){balance += bal; cout<< "In deposit"<<endl;};
-    bool withdraw(double){balance -= bal; cout<<"In withdraw"<<endl;};
+    bool deposit(double bal){
+        balance += bal; 
+        cout<< "In deposit"<<endl;
+        };
+    bool withdraw(double bal){
+        balance -= bal; 
+        cout<<"In withdraw"<<endl;
+        };
     
     
     
@@ -45,6 +51,7 @@ int main(){
     Tom.health = 100;
     Tom.xp = 100;
     Tom.talk("Hello");
+    Tom_acc.deposit(50);
     
     cout<<Tom.name<<'\t'<<Tom.health<<endl;
     
