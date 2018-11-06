@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ declaringclass - Debug ]----------"
-	@cd "declaringclass" && "$(MAKE)" -f  "declaringclass.mk"
+	@echo "----------Building project:[ LeetCode - Debug ]----------"
+	@cd "C:\Users\Jinjin\Documents\GitHub\LeetCode\C++\LeetCode" && "$(MAKE)" -f  "LeetCode.mk"
 clean:
-	@echo "----------Cleaning project:[ declaringclass - Debug ]----------"
-	@cd "declaringclass" && "$(MAKE)" -f  "declaringclass.mk" clean
+	@echo "----------Cleaning project:[ LeetCode - Debug ]----------"
+	@cd "C:\Users\Jinjin\Documents\GitHub\LeetCode\C++\LeetCode" && "$(MAKE)" -f  "LeetCode.mk" clean

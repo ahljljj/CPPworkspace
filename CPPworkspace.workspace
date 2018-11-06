@@ -4,7 +4,8 @@
   <Project Name="Simple" Path="Simple/Simple.project" Active="No"/>
   <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
-  <Project Name="declaringclass" Path="declaringclass/declaringclass.project" Active="Yes"/>
+  <Project Name="declaringclass" Path="declaringclass/declaringclass.project" Active="No"/>
+  <Project Name="LeetCode" Path="../GitHub/LeetCode/C++/LeetCode/LeetCode.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="Project1" ConfigName="Debug"/>
       <Project Name="FirstProgram" ConfigName="Debug"/>
       <Project Name="declaringclass" ConfigName="Debug"/>
+      <Project Name="LeetCode" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="Project1" ConfigName="Release"/>
       <Project Name="FirstProgram" ConfigName="Release"/>
       <Project Name="declaringclass" ConfigName="Release"/>
+      <Project Name="LeetCode" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
