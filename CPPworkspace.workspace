@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="CPPworkspace" Database="" Version="10.0.0">
-  <Project Name="test1" Path="test1/test1.project" Active="No"/>
+  <Project Name="test1" Path="test1/test1.project" Active="Yes"/>
   <Project Name="Simple" Path="Simple/Simple.project" Active="No"/>
   <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
   <Project Name="declaringclass" Path="declaringclass/declaringclass.project" Active="No"/>
+<<<<<<< HEAD
   <Project Name="LeetCode" Path="../GitHub/LeetCode/C++/LeetCode/LeetCode.project" Active="Yes"/>
+=======
+>>>>>>> 5a27f0f0319a0376134f7b3f9b414333a35b848f
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

@@ -27,8 +27,19 @@ public:
     
     
     // methods
+<<<<<<< HEAD
     bool deposit(double bal){balance += bal; cout<< "In deposit"<<endl;};
     bool withdraw(double bal){balance -= bal; cout<<"In withdraw"<<endl;};
+=======
+    bool deposit(double bal){
+        balance += bal; 
+        cout<< "In deposit"<<endl;
+        };
+    bool withdraw(double bal){
+        balance -= bal; 
+        cout<<"In withdraw"<<endl;
+        };
+>>>>>>> 5a27f0f0319a0376134f7b3f9b414333a35b848f
     
     
     
@@ -45,6 +56,7 @@ int main(){
     Tom.health = 100;
     Tom.xp = 100;
     Tom.talk("Hello");
+    Tom_acc.deposit(50);
     
     cout<<Tom.name<<'\t'<<Tom.health<<endl;
     
